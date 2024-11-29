@@ -5,14 +5,14 @@ main()
 {
 	 
 	 char s[1000];
-	 int i,j,k,count=0,n;
+	 int i,j,k,count=0,n=0;
 	 
 	 printf("ENTER ANY STRING: ");
 	 gets(s);
 	 
 	 for(j=0;s[j];j++) 
 	{
-	 	n=j;
+	 	n++;
 	}
 	 
 	 printf("\nFREQUENCY OF EACH LETTER:\n");
